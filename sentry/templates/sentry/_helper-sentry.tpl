@@ -11,6 +11,9 @@ config.yml: |-
   {{- if .Values.system.url }}
   system.url-prefix: {{ .Values.system.url | quote }}
   {{- end }}
+  {{- if .Values.system.uploadUrl }}
+  system.upload-url-prefix: {{ .Values.system.uploadUrl | quote }}
+  {{- end }}
 
   # This URL will be used to tell Symbolicator where to obtain the Sentry source.
   # See https://getsentry.github.io/symbolicator/api/
