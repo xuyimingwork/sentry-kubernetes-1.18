@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "unzip": "tar -xvzf sentry-26.18.0.tgz",
-    "zip": "tar -cvzf sentry-26.18.0-01.tgz sentry"
+    "zip": "tar -cvzf sentry-26.18.0-02.tgz sentry"
   },
   "keywords": [],
   "author": "",
